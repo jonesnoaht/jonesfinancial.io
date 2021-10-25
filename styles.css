@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Forum&display=swap');
+
+*{box-sizing: border-box;}
+
+body {
+    font-family: Helvetica;
+    background: rgb(240,240,240);
+    padding: 30px;
+    font-size:20px;
+}
+
+td {
+    font-size: 16px;
+}
+
+.navbar {
+    background: rgb(220,143,143);
+    overflow: hidden;
+}
+
+lighten {
+    color: rgb(0,0,0);
+    background-color: rgb(231,231,231);
+}
+
+.organizer {
+    display: grid; 
+    grid-template-areas: 
+	“side content” 
+	“footer footer”; 
+    grid-template-columns: 4fr; 
+    gap: 30px; 
+    padding: 20px;
+    background-color:rgb(209, 238, 243);
+    padding: 20px; margin-top: 10px; margin-bottom: 10px;
+}
+
+.textbox {
+    background-color: rgb(220,143,143);
+    margin-top: 15px;
+    padding:15px;
+    font-size: 16px;
+}
+
+.footer{
+    background-color: rgb(231,231,231); 
+    padding: 5px; font-size:20px; 
+}
